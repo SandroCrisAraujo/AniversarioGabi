@@ -1,0 +1,91 @@
+/* Fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Forum&family=Pompiere&display=swap');
+
+/* Fonte baixada */
+@font-face{
+    font-family: "wonderful";
+    src: url('/fonts/Wonderful Branding.ttf') format(truetype);
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background:radial-gradient(#D9D9D9, #C5B5D9);    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+}
+
+.img-gabi{  
+    width: 200px;  
+    border-radius: 180px;
+    box-shadow: #DF0D53 0px 0px 5px;
+}
+
+.titulo{
+    font-family: 'wonderful';
+    font-size:medium;  
+    text-align: center;  
+    color: #545454;
+    font-weight:lighter;
+}
+
+.btn{
+    padding: 0.75em 1.5em;
+    border-radius: 9px;
+    border: none;    
+}
+
+.blue{
+    background-color: rgba(204, 108, 230, 0.50);
+    box-shadow: #9100b9 0px 0px 5px;
+}
+
+.pink{
+    background-color: rgba(255, 102, 196, 0.50);
+    box-shadow: #DF0D53 0px 0px 5px;
+}
+
+.btn .cta{
+    font-family: 'Forum', cursive;
+    font-size: medium;
+    color: #545454;
+}
+
+.btn:hover{
+    opacity: 80%;
+}
+
+.subtitulo{    
+    text-align: center;    
+    color: #545454;
+}
+
+.text{
+    text-align: center;
+    color: #545454;
+}
+
+footer{
+    font-family: 'Pompiere', cursive;
+    padding: 10px;    
+    font-weight: lighter;
+    text-align: center;
+    color: #545454;
+}
