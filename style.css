@@ -12,12 +12,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 body{
-    background:radial-gradient(#d9d9d9, #C5B5D9);
-    background: url('/imagens/img-background.png') no-repeat center;    
+    /* background:radial-gradient(#d9d9d9, #C5B5D9); */
+    background: radial-gradient(rgba(217, 217, 217, 0.5), rgba(197, 181, 217, 0.5)), url('/imagens/img-background.png')no-repeat center;
+    background-attachment: fixed;   
 }
 
 .container{
@@ -36,11 +37,11 @@ body{
     width: 200px;  
     border-radius: 180px;
     border: #DCD3E8 solid 8px;
-    box-shadow: #DF0D53 2px 2px 5px;
+    box-shadow: #cc6ce6 2px 2px 5px;
 }
 
 .titulo{
-    font-family: 'Segoe UI';
+    font-family: "wonderful";
     font-size:45px;  
     text-align: center;  
     color: #545454;
@@ -55,11 +56,13 @@ body{
 .subtitulo-quinze{
     font-family: "wonderful";
     position: absolute;
-    font-size: 22px;
+    font-size: 24px;
+    font-weight:lighter;
+    font-style: italic;
     color: #545454;
 }
 .subtitulo-15{
-    font-size: 80px;
+    font-size: 100px;
     color: #cc6ce6;
 }
 
@@ -68,9 +71,29 @@ body{
     color: #cc6ce6;
 }
 
+.container-data{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+hr{
+    width: 3px;
+    height: 50px;
+    background-color: #545454;
+    
+}
+.subtitulo{
+    font-weight: lighter;
+    text-align: center; 
+    font-size: 30px;
+    color: #545454;
+}
 
 .text{
+    font-size: 22px;
     text-align: center;
+    padding: 15px;
     color: #545454;
 }
 
@@ -102,8 +125,11 @@ body{
 
 footer{
     font-family: 'Pompiere', cursive;
-    padding: 10px;    
+    padding: 10px; 
+    font-size: 22px;   
     font-weight: lighter;
+    
     text-align: center;
     color: #545454;
+    text-shadow: #ffffff 1px 1px;
 }
